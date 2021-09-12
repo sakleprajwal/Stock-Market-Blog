@@ -1,0 +1,43 @@
+body{
+    width: 90%;
+    max-width: 50rem;
+    display: block;
+    text-align: center;
+    margin: auto;
+    --tw-bg-opacity: 1;
+    background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
+}
+
+h1{
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 3rem;
+    letter-spacing: -0.3rem;
+}
+
+p{
+    font-family: 'Hind', sans-serif;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+h3{
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: -0.2rem;
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+img{
+    width: 100%;
+    max-width: 45rem;
+    margin: 2rem 0 2rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+br{
+    display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: 1.4rem;
+}
